@@ -7,7 +7,6 @@ import java.util.TreeMap;
 public class Anagram {
 
     public static boolean isAnagram(String word, String part) {
-        //TODO Homework;
         if (word == null
                 || word.isEmpty()
                 || part == null

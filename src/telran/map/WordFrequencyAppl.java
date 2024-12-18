@@ -26,7 +26,6 @@ public class WordFrequencyAppl {
             System.out.println(entry.getKey() + " -> " + entry.getValue());
         }
         System.out.println("==== Sorted by frequency (desc) ====");
-        //TODO Homework desc
         Comparator<Map.Entry<String, Integer>> comparator = (i1, i2) -> {
             int resCompare = Integer.compare(i2.getValue(), i1.getValue());
             return resCompare == 0? i1.getKey().compareTo(i2.getKey()): resCompare;
